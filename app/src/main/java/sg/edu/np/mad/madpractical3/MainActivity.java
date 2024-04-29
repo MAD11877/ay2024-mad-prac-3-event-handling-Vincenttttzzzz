@@ -1,4 +1,4 @@
-package sg.edu.np.mad.practical3;
+package sg.edu.np.mad.madpractical3;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,13 +8,14 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
-import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 import java.util.Random;
+
+import sg.edu.np.mad.madpractical3.R;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -59,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         btnMessage.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent MessageGroup = new Intent(MainActivity.this, sg.edu.np.mad.practical3.MessageGroup.class);
+                Intent MessageGroup = new Intent(MainActivity.this, sg.edu.np.mad.madpractical3.MessageGroup.class);
                 startActivity(MessageGroup);
             }
         });

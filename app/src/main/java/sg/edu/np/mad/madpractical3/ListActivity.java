@@ -1,4 +1,4 @@
-package sg.edu.np.mad.practical3;
+package sg.edu.np.mad.madpractical3;
 
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -12,6 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+import sg.edu.np.mad.madpractical3.R;
 
 public class ListActivity extends AppCompatActivity {
 
@@ -38,7 +40,7 @@ public class ListActivity extends AppCompatActivity {
                 builder.setPositiveButton("VIEW", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Intent MainActivity = new Intent(ListActivity.this, sg.edu.np.mad.practical3.MainActivity.class);
+                        Intent MainActivity = new Intent(ListActivity.this, sg.edu.np.mad.madpractical3.MainActivity.class);
                         startActivity(MainActivity);
                     }
                 });

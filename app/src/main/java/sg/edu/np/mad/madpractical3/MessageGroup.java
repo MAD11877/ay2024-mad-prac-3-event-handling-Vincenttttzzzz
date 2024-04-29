@@ -1,4 +1,4 @@
-package sg.edu.np.mad.practical3;
+package sg.edu.np.mad.madpractical3;
 
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +11,8 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
+
+import sg.edu.np.mad.madpractical3.R;
 
 public class MessageGroup extends AppCompatActivity {
 
